@@ -1,0 +1,46 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.body {
+  background-color: black;
+}
+
+/* Header */
+.headerTitle {
+  color: white;
+  margin-top: 5%;
+  font-size: 1.7em;
+}
+.headerList {
+  padding-top: 2.5%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.headerList li {
+  padding-left: 2.5%;
+}
+
+.headerList li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Home*/
+
+.div1 {
+  min-height: 800px;
+  background-image: url(./photo-1512733596533-7b00ccf8ebaf.avif);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.p1 {
+  color: white;
+}
